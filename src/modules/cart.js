@@ -4,7 +4,7 @@ const cart = () => {
     const cartCloseBtn = document.querySelector(".cart-close");
 
     const openCart = () => {
-        cartModal.style.display = 'flex'; //Что будет если тут будет группа селекторов?
+        cartModal.style.display = 'flex';
     };
 
     const closeCart = () => {
